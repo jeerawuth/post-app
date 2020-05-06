@@ -1,16 +1,15 @@
 import React from "react";
-
 import "./App.css";
+// import EventDashboard from "./components/EventDashboard/EventDashboard";
+// import Navbar from "./components/EventDashboard/Navbar";
+import Register from "./components/auth/Register";
 
 function App() {
   return (
     <div className="App">
-      <button className="ui icon primary button">
-        <i className="home icon"></i> Home
-      </button>
-      <button className="ui icon orange button">
-        Cart <i className="cart icon"></i>
-      </button>
+      {/* <Navbar />
+      <EventDashboard /> */}
+      <Register />
     </div>
   );
 }
